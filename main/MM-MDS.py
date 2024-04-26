@@ -1026,11 +1026,6 @@ def get_val_scores(model,
     file_name = "MTMDS/Ablation_1/pred_file.csv"
     val_df.to_csv(file_name, index=False) 
     print("Validation File saved")
-        
-    #elif "Test" in desc and epoch == MAX_EPOCHS - 1:
-    #test_df = pd.DataFrame(list(zip(gold, predictions)), columns=['actual_explanation', 'predicted_explanation'])
-    #file_name = "/home/abhisek_1921cs16/New/MMCSG/Multimodal_summary_5/Test_results_T_I_ODS/test-T-I-ODS_mmcs.csv"
-    #test_df.to_csv(file_name, index=False)  
     print("Test File saved")
     
     del predictions
