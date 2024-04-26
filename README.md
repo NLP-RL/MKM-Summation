@@ -4,7 +4,7 @@ Two eyes, Two views, and finally, One summary! Towards Multi-modal Multi-tasking
 
 ### Please create a new environment for the dependencies using the following command:
 
-	conda env create -f MMCSG_Env.yml
+	conda env create -f environment.yml
 
 ### Activate conda environment after installation by using the command:
 
