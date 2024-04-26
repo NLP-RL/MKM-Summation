@@ -27,6 +27,6 @@ Two eyes, Two views, and finally, One summary! Towards Multi-modal Multi-tasking
 #### For Ablation Study, please go to folder named AS
 
     python MM-MDS with MCS.py
-    .........................
+    -------------------------
 
     
